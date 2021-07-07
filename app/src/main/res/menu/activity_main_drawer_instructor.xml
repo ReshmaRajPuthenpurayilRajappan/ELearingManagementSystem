@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_coursemanager"
+            android:icon="@drawable/ic_menu_coursemanager"
+            android:title="@string/menu_coursemanager" />
+        <item
+            android:id="@+id/nav_salesreport"
+            android:icon="@drawable/ic_menu_salesreport"
+            android:title="@string/menu_salesreport" />
+        <item
+            android:id="@+id/nav_payoutreport"
+            android:icon="@drawable/ic_menu_payoutreport"
+            android:title="@string/menu_payoutreport" />
+        <item
+            android:id="@+id/nav_payoutsettings"
+            android:icon="@drawable/ic_menu_payoutsettings"
+            android:title="@string/menu_payoutsettings" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="@string/menu_message" />
+        <item
+            android:id="@+id/nav_manageprofile"
+            android:icon="@drawable/ic_menu_manageprofile"
+            android:title="@string/menu_manageprofile" />
+
+    </group>
+</menu>

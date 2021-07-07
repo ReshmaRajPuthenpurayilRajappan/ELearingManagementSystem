@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.e_learingmanagementsystem.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_coursemanager"
+        android:name="com.example.e_learingmanagementsystem.ui.coursemanager.CourseManagerFragment"
+        android:label="@string/menu_coursemanager"
+        tools:layout="@layout/fragment_coursemanager" />
+
+    <fragment
+        android:id="@+id/nav_salesreport"
+        android:name="com.example.e_learingmanagementsystem.ui.salesreport.SalesReportFragment"
+        android:label="@string/menu_salesreport"
+        tools:layout="@layout/fragment_salesreport" />
+
+    <fragment
+        android:id="@+id/nav_payoutreport"
+        android:name="com.example.e_learingmanagementsystem.ui.payoutreport.PayoutReportFragment"
+        android:label="@string/menu_payoutreport"
+        tools:layout="@layout/fragment_payoutreport" />
+
+    <fragment
+        android:id="@+id/nav_payoutsettings"
+        android:name="com.example.e_learingmanagementsystem.ui.payoutsettings.PayoutSettingsFragment"
+        android:label="@string/menu_payoutsettings"
+        tools:layout="@layout/fragment_payoutsettings" />
+
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.example.e_learingmanagementsystem.ui.message.MessageFragment"
+        android:label="@string/menu_message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/nav_manageprofile"
+        android:name="com.example.e_learingmanagementsystem.ui.manageprofile.ManageProfileFragment"
+        android:label="@string/menu_manageprofile"
+        tools:layout="@layout/fragment_manageprofile" />
+</navigation>
