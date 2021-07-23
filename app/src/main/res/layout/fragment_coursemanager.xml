@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.coursemanager.CourseManagerFragment">
+    tools:context=".ui.coursemanager.CourseManagerFragment"
+    android:background="@color/color_teacher">
 
     <TextView
         android:id="@+id/text_coursemanager"
