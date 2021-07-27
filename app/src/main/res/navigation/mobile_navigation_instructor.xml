@@ -7,43 +7,43 @@
 
     <fragment
         android:id="@+id/nav_dashboard"
-        android:name="com.example.e_learingmanagementsystem.ui.dashboard.DashboardFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.DashboardFragment"
         android:label="@string/menu_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/nav_coursemanager"
-        android:name="com.example.e_learingmanagementsystem.ui.coursemanager.CourseManagerFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.CourseManagerFragment"
         android:label="@string/menu_coursemanager"
         tools:layout="@layout/fragment_coursemanager" />
 
     <fragment
         android:id="@+id/nav_salesreport"
-        android:name="com.example.e_learingmanagementsystem.ui.salesreport.SalesReportFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.SalesReportFragment"
         android:label="@string/menu_salesreport"
         tools:layout="@layout/fragment_salesreport" />
 
     <fragment
         android:id="@+id/nav_payoutreport"
-        android:name="com.example.e_learingmanagementsystem.ui.payoutreport.PayoutReportFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.PayoutReportFragment"
         android:label="@string/menu_payoutreport"
         tools:layout="@layout/fragment_payoutreport" />
 
     <fragment
         android:id="@+id/nav_payoutsettings"
-        android:name="com.example.e_learingmanagementsystem.ui.payoutsettings.PayoutSettingsFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.PayoutSettingsFragment"
         android:label="@string/menu_payoutsettings"
         tools:layout="@layout/fragment_payoutsettings" />
 
     <fragment
         android:id="@+id/nav_message"
-        android:name="com.example.e_learingmanagementsystem.ui.message.MessageFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.MessageFragment"
         android:label="@string/menu_message"
         tools:layout="@layout/fragment_message" />
 
     <fragment
         android:id="@+id/nav_manageprofile"
-        android:name="com.example.e_learingmanagementsystem.ui.manageprofile.ManageProfileFragment"
+        android:name="com.example.e_learingmanagementsystem.ui.instructor.ManageProfileFragment"
         android:label="@string/menu_manageprofile"
         tools:layout="@layout/fragment_manageprofile" />
 </navigation>
