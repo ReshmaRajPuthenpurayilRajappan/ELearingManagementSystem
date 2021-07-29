@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ELearingManagementSystem">
-        <activity android:name=".StudentNavigationDrawer"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".StudentNavigationDrawer" />
         <activity
             android:name=".InstructorNavigationDrawer"
             android:label="@string/title_activity_navigation_drawer"
@@ -21,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
