@@ -44,8 +44,21 @@
     <string name="btnregister">Register</string>
     <string name="textviewalreadyhaveac">Already Have Account?</string>
     <string name="Welcome_message">Welcome to E-Learn Application</string>
+    <string name="title_activity_navigation_drawer">title_activity_navigation_drawer</string>
 
-
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_coursemanager">Course Manager</string>
+    <string name="menu_salesreport">Sales Report</string>
+    <string name="menu_payoutreport">Payout Report</string>
+    <string name="menu_payoutsettings">Payout Settings</string>
+    <string name="menu_message">Message</string>
+    <string name="menu_manageprofile">Manage Profile</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+    <string name="account_text">account_text</string>
+    <string name="calendet_text">calendet_text</string>
+    <string name="chat_text">chat_text</string>
 
 
 </resources>
