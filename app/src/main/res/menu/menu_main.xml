@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mainpage.MainActivity">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="10"
+        android:title="@string/action_home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_programs"
+        android:orderInCategory="20"
+        android:title="@string/action_programs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_enrollment"
+        android:orderInCategory="30"
+        android:title="@string/action_enrollment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_community"
+        android:orderInCategory="40"
+        android:title="@string/action_community"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="50"
+        android:title="@string/action_feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_administrator"
+        android:orderInCategory="60"
+        android:title="@string/action_administrator"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="70"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="80"
+        android:title="@string/action_contact"
+        app:showAsAction="never" />
+</menu>
