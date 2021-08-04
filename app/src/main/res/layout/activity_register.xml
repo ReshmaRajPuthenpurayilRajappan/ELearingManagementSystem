@@ -75,7 +75,7 @@
                 android:drawableLeft="@drawable/ic_menu_email"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="@string/edittxtflastname"
+                android:hint="@string/edittxtlastname"
                 android:inputType="textEmailAddress"
                 android:paddingLeft="20dp"
                 android:paddingTop="13dp"

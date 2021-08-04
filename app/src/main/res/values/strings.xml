@@ -27,6 +27,24 @@
     <string name="enrollment_description">Click the button to manage enrollment of students</string>
     <string name="content_description">Click the button to manage each course contents</string>
 
+    <string name="textlogin">Login</string>
+    <string name="hintemail">Email</string>
+    <string name="hintpassword">Password</string>
+    <string name="rbtn_student">Student</string>
+    <string name="rbtn_instructor">Instructor</string>
+    <string name="textviewnewac">Create New Account?</string>
+    <string name="textviewor">OR</string>
+
+    <string name="textviewRegister">Register?</string>
+    <string name="edittxtfirstname">First Name</string>
+    <string name="edittxtlastname">Last Name</string>
+    <string name="textforgotpassword">Forgot Password?</string>
+    <string name="btnlogin">Login</string>
+    <string name="edittextconfirmpassword">Confirm Password</string>
+    <string name="btnregister">Register</string>
+    <string name="textviewalreadyhaveac">Already Have Account?</string>
+    <string name="Welcome_message">Welcome to E-Learn Application</string>
+
 
 
 
