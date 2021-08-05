@@ -101,7 +101,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextLastName">
 
                 <RadioButton
-                    android:id="@+id/rbtnStudent"
+                    android:id="@+id/radBtnStudent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rbtn_student"
@@ -109,7 +109,7 @@
                     android:textSize="20sp" />
 
                 <RadioButton
-                    android:id="@+id/rbtnInstructor"
+                    android:id="@+id/radBtnInstructor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
