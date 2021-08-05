@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <fragment
+        android:id="@+id/nav_host_fragment_content_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/nav_graph" />
+
+    <TextView
+        android:id="@+id/textIntro"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:background="@color/intro_color"
+        android:text="@string/text_intro"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_main" />
+
+    <VideoView
+        android:id="@+id/videoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/textIntro" />
+
+    <TextView
+        android:id="@+id/textVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVideo"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/videoInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIntro" />
+
+    <ImageView
+        android:id="@+id/imageAnimation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_action_animation"
+        app:layout_constraintBottom_toBottomOf="@+id/videoInfo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageHide"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_action_hide"
+        app:layout_constraintBottom_toBottomOf="@+id/videoInfo"
+        app:layout_constraintStart_toEndOf="@+id/imageAnimation" />
+
+    <ImageView
+        android:id="@+id/imageHelp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_action_help"
+        app:layout_constraintBottom_toBottomOf="@+id/videoInfo"
+        app:layout_constraintStart_toEndOf="@id/imageHide" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoInfo" >
+
+        <LinearLayout
+            android:id="@+id/layout_enrollment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/layout_color"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/videoInfo">
+
+            <TextView
+                android:id="@+id/textEnrollment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/enrollment_description"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonEnrollment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="@string/button"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:onClick="goToEnrollment"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/layout_color"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layout_constraintTop_toBottomOf="@id/layout_enrollment">
+
+            <TextView
+                android:id="@+id/textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/content_description"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="@string/button"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:onClick="goToContent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Log in"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToLogin"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

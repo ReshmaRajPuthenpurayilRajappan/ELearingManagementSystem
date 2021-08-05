@@ -41,10 +41,10 @@ public class StudentNavigationDrawer extends AppCompatActivity {
                     case R.id.nav_account:
                         fragment =  new StudentAccountFragment();
                         break;
-                    case R.id.nav_calender:
+                    case R.id.nav_grades:
                         fragment =  new StudentCalenderFragment();
                         break;
-                    case R.id.nav_chat:
+                    case R.id.nav_Contact:
                         fragment =  new StudentChatFragment();
                         break;
                 }
