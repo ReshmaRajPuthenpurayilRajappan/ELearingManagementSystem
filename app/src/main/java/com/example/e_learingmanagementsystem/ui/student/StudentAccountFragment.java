@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.e_learingmanagementsystem.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link StudentAccountFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class StudentAccountFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

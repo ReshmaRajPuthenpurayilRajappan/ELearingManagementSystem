@@ -4,14 +4,18 @@
     <item android:id="@+id/nav_home"
         android:title="Home"
         android:icon="@drawable/ic_menu_home"/>
+
     <item android:id="@+id/nav_account"
-        android:title="My Account"
+        android:title="Account"
         android:icon="@drawable/ic_menu_account"/>
-    <item android:id="@+id/nav_calender"
-        android:title="Calender"
-        android:icon="@drawable/ic_menu_calendar"/>
-    <item android:id="@+id/nav_chat"
-        android:title="Chat"
-        android:icon="@drawable/ic_menu_chat"/>
+
+    <item android:id="@+id/nav_grades"
+        android:title="Grades"
+        android:icon="@drawable/ic_baseline_grade_24"/>
+
+    <item
+        android:id="@+id/nav_Contact"
+        android:icon="@drawable/ic_baseline_contact_mail_24"
+        android:title="Contact" />
 
 </menu>

@@ -4,18 +4,199 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-
+    android:padding="16dp"
+    android:background="@drawable/main_bg"
     tools:context=".ui.student.StudentAccountFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="top|left"
+        android:textSize="30sp"
         android:text="@string/account_text"
-        android:textColor="@color/black"
+        android:textColor="@color/cardview_dark_background"
         android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="15dp"
+            android:text="USERNAME"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="David Stark"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="15dp"
+                android:text="Password"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="**********"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="15dp"
+            android:text="Email"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="David123Stark@gmail.com"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="15dp"
+            android:text="Account "
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="Active"
+            android:checked="true"
+            android:textSize="20sp">
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="InActive"
+            android:textSize="20sp">
+        </CheckBox>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="15dp"
+            android:text="Contact us"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="www.E-learningSupport.com">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="22sp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="250-258-9579">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -24,7 +205,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="30dp"
-        android:background="@drawable/round_corner"
+        android:background="@color/light_white"
         android:elevation="2dp"
         app:itemIconSize="30dp"
         app:itemIconTint="@drawable/item_selector"
