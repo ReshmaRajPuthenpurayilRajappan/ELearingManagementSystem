@@ -42,5 +42,14 @@
     <string name="btnregister">Register</string>
     <string name="edittextconfirmpassword">Confirm Password</string>
     <string name="edittxtfirstname">First Name</string>
-    <string name="edittxtflastname">Last Name</string>
+    <string name="edittxtlastname">Last Name</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_programs">Programs</string>
+    <string name="action_enrollment">Enrollment</string>
+    <string name="action_community">Community</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_administrator">Administrator</string>
+    <string name="action_about">About</string>
+    <string name="action_contact">Contact</string>
 </resources>
